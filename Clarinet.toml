@@ -1,12 +1,13 @@
 [project]
 name = "walletconnectv4"
-description = "Wallet Connect challenge Level 3"
 authors = []
+description = ""
 telemetry = true
-cache_dir = "./.cache"
+requirements = []
 
 [contracts.walletconnectv4]
 path = "contracts/walletconnectv4.clar"
+clarity_version = 2
 
 [repl.analysis]
 passes = ["check_checker"]
